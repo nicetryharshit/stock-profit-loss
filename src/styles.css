@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+}
+
+label {
+  padding: 0;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-decoration-style: solid;
+  text-decoration: underline;
+}
+
+h1 {
+  margin: auto;
+
+  padding: 10px;
+  color: #333333;
+  border-style: solid;
+  border-radius: 10px;
+}
+h2 {
+  color: #333333;
+  font-size: large;
+}
+h3 {
+  padding: 5px;
+  color: #376bf8;
+}
+section {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.labelled-input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+input {
+  padding: 5px;
+  /* max-width: 100px; */
+  height: 30px;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+  font-size: larger;
+  border-color: rgb(45, 72, 196);
+  border-width: 2px;
+}
+
+.cta-btn {
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height: 25px;
+  background-color: rgb(52, 76, 148);
+  color: #ffffff;
+  cursor: pointer;
+  min-width: 80px;
+  min-height: 30px;
+  border-radius: 10px;
+  border-color: rgb(52, 76, 148);
+}
